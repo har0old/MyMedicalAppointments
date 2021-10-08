@@ -110,8 +110,8 @@ public class UiMenu {
                 for(Patient p: patiens){
                     if(p.getEmail().equals(email)){
                         emailCorret = true;
-                        //Obtener el usuario logueado
                         patientLogged =p;
+                        UIPatientMenu.showpatientMenu();
 
                     }
                 }
