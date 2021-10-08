@@ -56,7 +56,7 @@ public class UIDoctorMenu {
                 System.out.println("Ingresa la fecha disponible: [dd/mm/aaaa]");
                 String date = sc.nextLine();
 
-                System.out.println("AL fecha seleccionada es: "+date + "\n1.Correcto \n2.Cambiar");
+                System.out.println("la fecha seleccionada es: "+date + "\n1.Correcto \n2.Cambiar");
                 int responseDate = Integer.valueOf(sc.nextLine());
                 if(responseDate == 2) continue;
 
