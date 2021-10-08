@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class UiMenu {
 
-    public  static String[] MONTHS = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
+    public  static final String[] MONTHS = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
     public static Doctor doctorLogged;
     public static Patient patientLogged;
 
@@ -100,7 +100,7 @@ public class UiMenu {
                         emailCorret = true;
                         //Obtener el usuario logeado
                         doctorLogged = d;
-                        //showDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
 
                     }
                 }
